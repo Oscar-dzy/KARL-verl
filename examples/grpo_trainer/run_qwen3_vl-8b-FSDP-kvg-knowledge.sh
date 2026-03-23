@@ -8,10 +8,10 @@ HF_MODEL_PATH=${HF_MODEL_PATH:-"/path/to/your/sft_model_checkpoint"}
 
 SAVE_PATH=/path/to/your/save_model
 
-train_path='[ "./data/grpo/verl-grpo-aircraft.parquet", "./data/grpo/verl-grpo-bird.parquet", "./data/grpo/verl-grpo-car.parquet", "./data/grpo/verl-grpo-food.parquet", "./data/grpo/verl-grpo-reptilia.parquet" ]'
-val_path="./data/grpo/val_dataset.parquet"  # not used in training, only for running the training process
-reward_path=/path/to/your/verl/verl/utils/reward_score/kvg_reward-knowledge.py  # your custom reward function path in verl framework
+train_path='[ "/path/to/your/data_grpo/verl-grpo-aircraft.parquet", "/path/to/your/data_grpo/verl-grpo-bird.parquet", "/path/to/your/data_grpo/verl-grpo-car.parquet", "/path/to/your/data_grpo/verl-grpo-food.parquet", "/path/to/your/data_grpo/verl-grpo-reptilia.parquet" ]'
+val_path="/path/to/your/data_grpo/val_dataset.parquet"  # not used in training, only for running the training process
 
+reward_path=./verl/utils/reward_score/kvg_reward-knowledge.py  # your custom reward function path in verl framework
 
 
 python3 -m verl.trainer.main_ppo --config-path=config \

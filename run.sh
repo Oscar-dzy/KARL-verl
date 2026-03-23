@@ -7,7 +7,7 @@ export HYDRA_FULL_ERROR=1
 # export WANDB_MODE=offline
 
 # GRPO
-bash /path_to_your_verl/examples/grpo_trainer/run_qwen3_vl-8b-FSDP-kvg-knowledge.sh
+bash ./examples/grpo_trainer/run_qwen3_vl-8b-FSDP-kvg-knowledge.sh
 
 
 # Merge FSDP checkpoints
