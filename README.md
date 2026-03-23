@@ -31,9 +31,13 @@ This is the **verl** framework modified based on the KARL framework.
    
    val_path="/path/to/your/data_grpo/val_dataset.parquet"
 
+3. Adjust the `--local_dir` and `--target_dir` variables in `./run.sh` to point to the corresponding paths where the model weights are saved.
+
 
 
 ## Train 
+
+Once the above preparations are complete, simply run the following command to start training:
 
 ```bash
 bash run.sh

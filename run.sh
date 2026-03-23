@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-export WANDB_API_KEY=xxx  # your wandb api key
-export LOG_PATH=/path/to/your/log/file.log  # when you set DEBUG_MODE=true, you can set the log path here
+# export WANDB_API_KEY=xxx  # your wandb api key
+# export LOG_PATH=/path/to/your/log/file.log  # when you set DEBUG_MODE=true, you can set the log path here
 
 export DEBUG_MODE=false
 export HYDRA_FULL_ERROR=1
