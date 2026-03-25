@@ -29,7 +29,7 @@ bbox_threshold = 0.65
 # ==============
 # construct the knowledge paths
 # ==============
-visual_knowledge_path = "/path_to_your_knowledge_dir/results-visual_knowledge.json"
+visual_knowledge_path = "/path/to/your/knowledge_dir/results-visual_knowledge.json"
 with open(visual_knowledge_path, "r") as f:
     visual_knowledge_dataset = json.load(f)
 entity_to_visual_knowledge = {}

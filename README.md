@@ -41,6 +41,8 @@ This is the **verl** framework modified based on the KARL framework.
 
 3. Adjust the `--local_dir` and `--target_dir` variables in `./run.sh` to point to the corresponding paths where the model weights are saved.
 
+4. Adjust `visual_knowledge_path ` variable (line 32) in `./verl/utils/reward_score/kvg_reward-knowledge.py `to point to the corresponding paths
+
 
 
 ## Train 
