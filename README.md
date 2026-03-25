@@ -7,6 +7,14 @@ This is the **verl** framework modified based on the KARL framework.
 
 1. Environment Setup
 
+   ```bash
+   conda create -n verl-KARL python==3.12.0
+   conda activate verl-KARL
+   
+   pip install -r requirements.txt
+   pip install flash_attn-2.8.1+cu12torch2.8cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
+   ```
+
 2. Update the following variables in `./examples/grpo_trainer/run_qwen3_vl-8b-FSDP-kvg-knowledge.sh`:
 
    - Adjust `train_path` and `val_path` to point to the respective GRPO data paths.
