@@ -11,7 +11,7 @@ anthropic==0.72.0
 antlr4-python3-runtime==4.9.3
 anyio==4.11.0
 astor==0.8.1
-asttokens==3.0.0
+asttokens==3.0.1
 attrs==25.4.0
 av==16.0.1
 blake3==1.0.8
